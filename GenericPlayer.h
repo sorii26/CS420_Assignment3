@@ -13,7 +13,7 @@ public:
     virtual bool isHitting() const = 0;
 
     bool isBusted() const;
-    void bust() const;
+    bool bust() const;
 
     string getName() const;
     void setName(const string& name);

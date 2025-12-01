@@ -3,6 +3,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <random>
+
+
 using namespace std;
 
 //Constructor: calls the function cardVector.reserve(52) & the function populate().
@@ -27,8 +30,9 @@ void Deck::populate() {
 
 //Function shuffles the cards.
 void Deck::shuffle() {
-    srand(static_cast<unsigned int>(time(0)));
-    random_shuffle(cardVector.begin(), cardVector.end());
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(cardVector.begin(), cardVector.end(), g);
 }
 
 

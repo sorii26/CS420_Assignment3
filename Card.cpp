@@ -15,7 +15,7 @@ int Card::getValue() const {
     if (rank >= 10) {
         return 10;
     }
-
+    
     return rank;
 }
 

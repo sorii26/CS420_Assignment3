@@ -22,7 +22,7 @@ void Hand::add(Card* cardPtr) {
 * Calls function clear() on cardVector
 */
 void Hand::clearHand() {
-    std::vector<Card*>::iterator iter = cardVector.begin();
+    vector<Card*>::iterator iter = cardVector.begin();
     for (iter = cardVector.begin(); iter != cardVector.end(); ++iter) {
         delete *iter;
         *iter = NULL;

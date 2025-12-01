@@ -18,8 +18,9 @@ bool GenericPlayer::isBusted() const {
     }
 }
 //Function prints the name and displays that the player has busted.
-void GenericPlayer::bust() const {
+bool GenericPlayer::bust() const {
     cout << name << " busts." << endl;
+    return true;
 }
 
 string GenericPlayer::getName() const {

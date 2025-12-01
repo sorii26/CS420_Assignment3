@@ -1,3 +1,14 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+Player.cpp:
+Implements the Player class methods.
+A human Blackjack player.
+
+*/
 #include "Player.h"
 #include <iostream>
 using namespace std;
@@ -11,10 +22,21 @@ Player::~Player() {
 
 //Function indicates whether the player wants to hit.
 bool Player::isHitting() const {
-    cout << getName() << ", do you want a hit? (Y/N): ";
-    char response;
-    cin >> response;
-    return (response == 'y' || response == 'Y');
+    while (true) {
+        cout << getName() << ", do you want a hit? (Y/N): ";
+
+        string input;
+        cin >> input;
+
+        if (input.size() == 1 &&
+            (input[0] == 'y' || input[0] == 'Y' ||
+             input[0] == 'n' || input[0] == 'N')) 
+        {
+            return (input[0] == 'y' || input[0] == 'Y');
+        }
+
+        cout << "Invalid input. Please enter only Y or N.\n";
+    }
 }
 
 //Function: prints the name and displays that the player has won.

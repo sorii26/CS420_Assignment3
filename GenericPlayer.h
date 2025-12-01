@@ -1,3 +1,14 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+GenericPlayer.h:
+Implements the GenericPlayer class definition.
+A generic Blackjack player. Not a full player, but the common elements of a human player and the computer player. This is an abstract class.
+
+*/
 #ifndef GENERICPLAYER_H
 #define GENERICPLAYER_H
 using namespace std;

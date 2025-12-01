@@ -1,3 +1,14 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+House.cpp:
+Implements the House class methods.
+The computer player, the house.
+
+*/
 #include "House.h"
 #include <iostream>
 using namespace std;

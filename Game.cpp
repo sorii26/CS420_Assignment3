@@ -1,8 +1,19 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+Game.cpp:
+Implements the Game class methods.
+A Blackjack game.
+
+*/
+
 #include "Game.h"
 #include <iostream>
 using namespace std;
-
-/*Constructor:
+/*
 * Call the setName function for player object and pass it the name.
 * Call function populate() using the deck object.
 * Call function shuffle() using the deck object

@@ -1,3 +1,14 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+Card.h:
+Implements the Card class definition.
+A Blackjack playing card.
+
+*/
 #ifndef CARD_H
 #define CARD_H
 using namespace std;

@@ -1,3 +1,14 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+Hand.cpp:
+Implements the Hand class methods.
+A blackjack hand. A collection of Card objects.
+
+*/
 #include "Hand.h"
 using namespace std;
 

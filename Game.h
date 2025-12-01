@@ -1,3 +1,14 @@
+/*
+Author: Andrei Magno, Isabella Soriano
+CS 420
+Assignment 3
+December 1, 2025
+
+Game.h:
+Implements the Game class definition.
+A Blackjack game.
+
+*/
 #ifndef GAME_H
 #define GAME_H
 
